@@ -1,0 +1,162 @@
+<html>
+<head>
+<title>Mangu Adrian-Constantin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+   .dropdown-content a:hover {
+       background-color: #ddd;
+   }
+
+   .dropdown:hover .dropdown-content {
+       display: block;
+   }
+ .avatar {
+     vertical-align: middle;
+     width: 350px;
+     height: 300px;
+     border-radius: 50%;
+ }
+
+ .hero-image {
+   background-image: url("1.jpg");
+   background-color: #cccccc;
+   height: 850px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+ .second {
+   background-image: url("32.jpg");
+   background-color: #cccccc;
+   height: 850px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+
+ .third {
+   background-image: url("2.jpg");
+   background-color: #cccccc;
+   height: 850px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+
+
+
+ .hero-text {
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+ }
+ .button {
+     background-color: "#663300";
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+ }
+ #myBtn {
+   display: none;
+   position: fixed;
+   bottom: 20px;
+   right: 30px;
+   z-index: 99;
+   font-size: 18px;
+   border: none;
+   outline: none;
+   background-color: rgba(143, 140, 140, 0.301);
+   color: rgb(5, 5, 5);
+   cursor: pointer;
+   padding: 15px;
+   border-radius: 4px;
+ }
+
+ #myBtn:hover {
+   background-color: #555;
+ }
+</style>
+
+
+<body>
+
+  <script>
+      window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  document.getElementById("navbar").style.top = "0";
+} else {
+  document.getElementById("navbar").style.top = "-50px";
+}
+}
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("myBtn").style.display = "block";
+          } else {
+              document.getElementById("myBtn").style.display = "none";
+          }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+
+      </script>
+
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 style="font-size:50px">Hi, I am Mangu Adrian-Constantin</h1>
+      <h3>And I'm a Programmer</h3>
+      <a href="#" class="button">Home</a>
+      <a herf="#" class="button">Look at my projects</a>
+    </div>
+  </div>
+
+  <div class="second">
+    <div class="hero-text">
+      <h1 style="font-size:50px">Very experienced with python , html(CSS), Machine Learning(AI)</h1>
+      <h3>Also a bug bounty hunter </h3>
+      <a href="#" class="button">Home</a>
+      <a herf="#" class="button">Look at my projects</a>
+
+    </div>
+  </div>
+
+  <div class="third">
+    <div class="hero-text">
+      <h1 style="font-size:50px">Visit my github page for a lot more details </h1>
+      <h3> https://github.com/IamAhacker1345693?tab=repositories</h3>
+      <a href="#" class="button">Home</a>
+      <a herf="#" class="button">Look at my projects</a>
+
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
